@@ -7,7 +7,7 @@ if len(argv) > 2:
     print("Usage: python3 change.py (outputFileName)")
     exit(0)
 # Prompt
-s = input("Enter text to be translated:")
+s = input("Enter text to be translated: ")
 # Initialize output string
 outputString = ""
 oldNumVal = 0
