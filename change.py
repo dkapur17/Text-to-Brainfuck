@@ -2,10 +2,11 @@
 # Also, resets it to zero for future use.
 from sys import argv
 
+# Check if command line argument is valid
 if len(argv) > 2:
     print("Usage: python3 change.py (outputFileName)")
     exit(0)
-
+# Prompt
 s = input("Enter text to be translated:")
 # Initialize output string
 outputString = ""
